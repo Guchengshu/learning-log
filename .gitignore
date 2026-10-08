@@ -1,0 +1,44 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ---- 环境与密钥（绝对不能提交）----
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.json
+credentials.json
+
+# ---- 数据：大文件绝不入库 ----
+data/
+raw_data/
+*.csv
+*.tsv
+*.pcap
+*.pcapng
+*.h5
+*.pkl
+*.pt
+*.ckpt
+*.zip
+*.tar.gz
+!sample_data/*.csv
+
+# ---- 输出与日志 ----
+outputs/
+results/
+*.log
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
